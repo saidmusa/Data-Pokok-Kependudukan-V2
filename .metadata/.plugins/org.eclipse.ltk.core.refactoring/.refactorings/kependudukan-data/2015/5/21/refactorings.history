@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;list&apos; from expression &apos;(List&lt;Agama&gt;)sessionFactory.getCurrentSession().createQuery(&quot;from Agama&quot;).list()&apos;&#x0D;&#x0A;- Original project: &apos;kependudukan-data&apos;&#x0D;&#x0A;- Variable name: &apos;list&apos;&#x0D;&#x0A;- Destination method: &apos;id.ac.its.pbkk.kependudukan.data.AgamaDAOImpl.list()&apos;&#x0D;&#x0A;- Variable expression: &apos;(List&lt;Agama&gt;)sessionFactory.getCurrentSession().createQuery(&quot;from Agama&quot;).list()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;list&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/main\/java&lt;id.ac.its.pbkk.kependudukan.data{AgamaDAOImpl.java" name="list" replace="true" selection="663 81" stamp="1431972757873" version="1.0"/>
+</session>

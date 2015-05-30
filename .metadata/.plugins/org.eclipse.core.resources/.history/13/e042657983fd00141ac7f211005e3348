@@ -1,0 +1,13 @@
+package id.ac.its.pbkk.kependudukan.data;
+
+import id.ac.its.pbkk.kependudukan.domain.Agama;
+
+public interface AgamaDAO {
+	void persistEmployee(Agama agama);
+	  
+	Agama findEmployeeById(int id);
+	  
+	void updateEmployee(Agama agama);
+	 
+	void deleteEmployee(Agama agama);
+}

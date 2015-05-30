@@ -1,0 +1,420 @@
+2015-05-19 00:16:39,738 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\pom.xml.
+2015-05-19 00:16:41,020 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\pom.xml.
+2015-05-19 00:17:06,591 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\pom.xml
+2015-05-19 00:17:08,125 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-domain:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\pom.xml.
+2015-05-19 00:17:09,237 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kependudukan-domain/src/main/java
+2015-05-19 00:17:09,253 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kependudukan-domain/src/test/java
+2015-05-19 00:17:09,440 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-domain:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\pom.xml.
+2015-05-19 00:17:10,128 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2015-05-19 00:17:11,218 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\pom.xml.
+2015-05-19 00:17:11,374 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-domain:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\pom.xml.
+2015-05-19 00:17:12,265 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:17:12,265 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\main\resources
+2015-05-19 00:17:12,265 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:17:12,265 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\test\resources
+2015-05-19 00:18:33,718 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:18:33,718 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\main\resources
+2015-05-19 00:18:33,734 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:18:33,734 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\test\resources
+2015-05-19 00:18:34,787 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:18:34,803 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\main\resources
+2015-05-19 00:18:34,912 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:18:34,959 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\test\resources
+2015-05-19 00:19:45,448 [Worker-7] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:558) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:567) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:511) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:466) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:336) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:289) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.1.v20141014-1248.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </project> must match start tag name <dependencies> from line 12 (position: TEXT seen ...</dependency>\n</project>... @25:11) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:127) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:91) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:556) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </project> must match start tag name <dependencies> from line 12 (position: TEXT seen ...</dependency>\n</project>... @25:11) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:1724) ~[plexus-utils-3.0.17.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1169) ~[plexus-utils-3.0.17.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1131) ~[plexus-utils-3.0.17.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1118) ~[plexus-utils-3.0.17.jar:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2193) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:122) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	... 26 common frames omitted
+2015-05-19 00:19:47,760 [Worker-4] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:558) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:567) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:511) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:466) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:336) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:289) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.1.v20141014-1248.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </project> must match start tag name <dependencies> from line 12 (position: TEXT seen ...</dependency>\n</project>... @25:11) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:127) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:91) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:556) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </project> must match start tag name <dependencies> from line 12 (position: TEXT seen ...</dependency>\n</project>... @25:11) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:1724) ~[plexus-utils-3.0.17.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1169) ~[plexus-utils-3.0.17.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1131) ~[plexus-utils-3.0.17.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1118) ~[plexus-utils-3.0.17.jar:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2193) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:122) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	... 26 common frames omitted
+2015-05-19 00:19:50,784 [Worker-7] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\pom.xml: end tag name </project> must match start tag name <dependencies> from line 12 (position: TEXT seen ...</dependency>\n</project>... @25:11)  @ line 25, column 11
+ for project  at C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\pom.xml
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\pom.xml: end tag name </project> must match start tag name <dependencies> from line 12 (position: TEXT seen ...</dependency>\n</project>... @25:11)  @ line 25, column 11
+ for project  at C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:152) ~[maven-core-3.2.1.jar:3.2.1]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:105) ~[maven-core-3.2.1.jar:3.2.1]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:629) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:779) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:913) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:775) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:188) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:753) [org.eclipse.m2e.editor_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$6.run(MavenPomEditor.java:1073) [org.eclipse.m2e.editor_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.1.v20141014-1248.jar:na]
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\pom.xml: end tag name </project> must match start tag name <dependencies> from line 12 (position: TEXT seen ...</dependency>\n</project>... @25:11)  @ line 25, column 11
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:195) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:499) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:256) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:145) ~[maven-core-3.2.1.jar:3.2.1]
+	... 15 common frames omitted
+2015-05-19 00:20:04,637 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\pom.xml.
+2015-05-19 00:20:04,903 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-domain:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\pom.xml.
+2015-05-19 00:20:05,669 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:20:05,669 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\main\resources
+2015-05-19 00:20:05,684 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:20:05,684 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\test\resources
+2015-05-19 00:21:28,702 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\pom.xml.
+2015-05-19 00:21:29,248 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-domain:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\pom.xml.
+2015-05-19 00:21:30,397 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:21:30,413 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\main\resources
+2015-05-19 00:21:30,413 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:21:30,428 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\test\resources
+2015-05-19 00:22:36,511 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:22:36,511 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\main\resources
+2015-05-19 00:22:36,511 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:22:36,511 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\test\resources
+2015-05-19 00:23:38,129 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\pom.xml
+2015-05-19 00:23:38,348 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kependudukan-data:kependudukan-data:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\pom.xml.
+2015-05-19 00:23:38,988 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kependudukan-data/src/main/java
+2015-05-19 00:23:39,004 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kependudukan-data/src/test/java
+2015-05-19 00:23:39,254 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2015-05-19 00:23:39,910 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\pom.xml.
+2015-05-19 00:23:40,353 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-domain:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\pom.xml.
+2015-05-19 00:23:40,573 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kependudukan-data:kependudukan-data:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\pom.xml.
+2015-05-19 00:23:41,911 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:23:41,996 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:23:42,022 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kependudukan-data:kependudukan-data:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\pom.xml.
+2015-05-19 00:23:42,035 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:23:42,035 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:23:43,790 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:23:43,790 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\main\resources
+2015-05-19 00:23:43,802 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:23:43,808 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\test\resources
+2015-05-19 00:23:45,172 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:23:45,172 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:23:45,187 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:23:45,187 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:24:41,717 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\pom.xml
+2015-05-19 00:24:41,920 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-data:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\pom.xml.
+2015-05-19 00:24:42,443 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kependudukan-data/src/main/java
+2015-05-19 00:24:42,474 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kependudukan-data/src/test/java
+2015-05-19 00:24:42,677 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2015-05-19 00:24:43,131 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-data:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\pom.xml.
+2015-05-19 00:24:43,724 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:24:43,724 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:24:43,724 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:24:43,724 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:24:44,927 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-data:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\pom.xml.
+2015-05-19 00:24:46,290 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:24:46,290 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:24:46,290 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:24:46,290 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:25:09,859 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:25:09,874 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:25:09,874 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:25:09,890 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:25:23,973 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:25:23,973 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:25:23,973 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:25:23,989 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:25:44,416 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:25:44,432 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:25:44,432 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:25:44,432 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:26:35,956 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-data:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\pom.xml.
+2015-05-19 00:26:36,472 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:26:36,472 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:26:36,487 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:26:36,487 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:27:28,841 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:27:28,841 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:27:28,857 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:27:28,857 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:29:20,203 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:29:20,203 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:29:20,218 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:29:20,218 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:29:45,015 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:29:45,015 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:29:45,031 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:29:45,031 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:30:03,344 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:30:03,344 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:30:03,359 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:30:03,375 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:30:06,969 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:30:06,969 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:30:06,969 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:30:06,984 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:31:07,328 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\pom.xml
+2015-05-19 00:31:07,594 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-service:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\pom.xml.
+2015-05-19 00:31:08,266 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kependudukan-service/src/main/java
+2015-05-19 00:31:08,297 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kependudukan-service/src/test/java
+2015-05-19 00:31:08,610 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2015-05-19 00:31:09,266 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\pom.xml.
+2015-05-19 00:31:09,735 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-domain:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\pom.xml.
+2015-05-19 00:31:09,938 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-data:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\pom.xml.
+2015-05-19 00:31:10,141 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-service:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\pom.xml.
+2015-05-19 00:31:11,235 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:31:11,250 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\main\resources
+2015-05-19 00:31:11,250 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:31:11,266 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\test\resources
+2015-05-19 00:31:11,610 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:31:11,610 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:31:11,625 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:31:11,625 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:31:12,016 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-service:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\pom.xml.
+2015-05-19 00:31:12,047 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:31:12,047 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\main\resources
+2015-05-19 00:31:12,110 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:31:12,110 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\test\resources
+2015-05-19 00:31:13,835 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:31:13,835 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\main\resources
+2015-05-19 00:31:13,851 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:31:13,851 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\test\resources
+2015-05-19 00:31:39,860 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:31:39,860 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\main\resources
+2015-05-19 00:31:39,875 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:31:39,875 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\test\resources
+2015-05-19 00:31:54,475 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:31:54,475 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\main\resources
+2015-05-19 00:31:54,475 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:31:54,491 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\test\resources
+2015-05-19 00:32:00,732 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:32:00,732 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\main\resources
+2015-05-19 00:32:00,732 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:32:00,732 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\test\resources
+2015-05-19 00:32:55,261 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-service:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\pom.xml.
+2015-05-19 00:32:55,948 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:32:55,948 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\main\resources
+2015-05-19 00:32:55,948 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:32:55,964 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\test\resources
+2015-05-19 00:33:12,806 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:33:12,806 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\main\resources
+2015-05-19 00:33:12,806 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:33:12,806 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\test\resources
+2015-05-19 00:34:20,935 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-service:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\pom.xml.
+2015-05-19 00:34:21,450 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:34:21,450 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\main\resources
+2015-05-19 00:34:21,466 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:34:21,466 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\test\resources
+2015-05-19 00:36:25,686 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:36:25,686 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\main\resources
+2015-05-19 00:36:25,702 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:36:25,702 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\test\resources
+2015-05-19 00:37:09,418 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\pom.xml
+2015-05-19 00:37:09,636 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-test:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\pom.xml.
+2015-05-19 00:37:10,308 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kependudukan-test/src/main/java
+2015-05-19 00:37:10,324 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kependudukan-test/src/test/java
+2015-05-19 00:37:10,555 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2015-05-19 00:37:11,181 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\pom.xml.
+2015-05-19 00:37:11,712 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-data:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\pom.xml.
+2015-05-19 00:37:11,931 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-domain:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\pom.xml.
+2015-05-19 00:37:12,149 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-service:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\pom.xml.
+2015-05-19 00:37:12,365 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-test:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\pom.xml.
+2015-05-19 00:37:14,051 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-test:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\pom.xml.
+2015-05-19 00:37:14,301 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:37:14,363 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\main\resources
+2015-05-19 00:37:14,504 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:37:14,519 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\test\resources
+2015-05-19 00:37:14,973 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:37:14,988 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:37:14,988 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:37:15,004 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:37:15,348 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:37:15,348 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\main\resources
+2015-05-19 00:37:15,348 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:37:15,348 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\test\resources
+2015-05-19 00:37:15,691 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:37:15,691 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\main\resources
+2015-05-19 00:37:15,691 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:37:15,707 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:37:17,069 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:37:17,069 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\main\resources
+2015-05-19 00:37:17,069 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:37:17,085 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:37:46,676 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:37:46,692 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\main\resources
+2015-05-19 00:37:46,692 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:37:46,707 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:37:58,755 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:37:58,755 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\main\resources
+2015-05-19 00:37:58,770 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:37:58,770 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:38:27,849 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:38:27,849 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\main\resources
+2015-05-19 00:38:27,849 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:38:27,865 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:40:14,670 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:40:14,670 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\main\resources
+2015-05-19 00:40:14,670 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:40:14,686 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:41:33,392 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-test:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\pom.xml.
+2015-05-19 00:41:34,035 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:41:34,036 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\main\resources
+2015-05-19 00:41:34,043 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:41:34,043 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:42:05,218 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: id.ac.its.pbkk.kependudukan:kependudukan-test:0.0.1-SNAPSHOT @ C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\pom.xml.
+2015-05-19 00:42:05,702 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:42:05,702 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\main\resources
+2015-05-19 00:42:05,702 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:42:05,718 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:43:54,807 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:43:54,917 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\main\resources
+2015-05-19 00:43:54,963 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:43:54,979 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:44:08,080 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:44:08,080 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\main\resources
+2015-05-19 00:44:08,096 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:44:08,096 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:45:59,978 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:45:59,978 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\main\resources
+2015-05-19 00:45:59,993 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:45:59,993 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:46:02,813 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:46:02,813 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\main\resources
+2015-05-19 00:46:02,829 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:46:02,829 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:47:40,294 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:47:40,294 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\main\resources
+2015-05-19 00:47:40,294 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:47:40,310 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:47:46,276 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:47:46,308 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\main\resources
+2015-05-19 00:47:46,339 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:47:46,354 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:48:53,784 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:48:53,815 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-05-19 00:48:53,862 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:48:53,862 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:50:52,470 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:50:52,486 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-05-19 00:50:52,517 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:50:52,517 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:53:06,825 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:06,825 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\main\resources
+2015-05-19 00:53:06,840 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:06,840 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\test\resources
+2015-05-19 00:53:13,284 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:13,299 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-05-19 00:53:13,299 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:13,299 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:53:21,871 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:21,871 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-05-19 00:53:21,887 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:21,887 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:53:26,138 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:26,153 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\main\resources
+2015-05-19 00:53:26,153 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:26,153 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\test\resources
+2015-05-19 00:53:36,999 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan
+2015-05-19 00:53:36,999 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-05-19 00:53:49,999 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:49,999 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\main\resources
+2015-05-19 00:53:50,015 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:50,015 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-domain\src\test\resources
+2015-05-19 00:53:50,031 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:50,031 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 00:53:50,031 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:50,046 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 00:53:50,062 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:50,062 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\main\resources
+2015-05-19 00:53:50,062 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:50,077 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-service\src\test\resources
+2015-05-19 00:53:50,093 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:50,093 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-19 00:53:50,093 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:53:50,093 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 00:56:16,449 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:56:16,449 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-19 00:56:16,449 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 00:56:16,449 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-test\src\test\resources
+2015-05-19 01:13:08,254 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 01:13:08,254 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 01:13:08,270 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 01:13:08,270 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 01:13:11,263 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 01:13:11,263 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 01:13:11,263 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 01:13:11,263 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
+2015-05-19 01:13:19,028 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 01:13:19,028 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\main\resources
+2015-05-19 01:13:19,044 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-19 01:13:19,044 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data Pokok Kependudukan V2\kependudukan\kependudukan-data\src\test\resources
