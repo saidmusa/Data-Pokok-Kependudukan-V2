@@ -1,7 +1,7 @@
 package id.ac.its.pbkk.kependudukan.service;
 
-import id.ac.its.pbkk.kependudukan.domain.AkteNikah;
-import id.ac.its.pbkk.kependudukan.data.AkteCeraiDao;
+import id.ac.its.pbkk.kependudukan.domain.Agama;
+import id.ac.its.pbkk.kependudukan.data.AgamaDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -10,25 +10,25 @@ import org.springframework.transaction.annotation.Transactional;
 public class AgamaServiceImpl implements AgamaService{
 
 	@Autowired
-	AkteCeraiDao agamaDAO;
+	AgamaDao agamaDAO;
 	
 	@Transactional
-	public void persist(AkteNikah agama) {
+	public void persist(Agama agama) {
 		//agamaDAO.persist(agama);
 	}
 	
 	@Transactional
-	public AkteNikah findById(int id) {
+	public Agama findById(int id) {
 		return agamaDAO.findById(id);
 	}
 
 	@Transactional
-	public void update(AkteNikah agama) {
+	public void update(Agama agama) {
 		agamaDAO.update(agama);
 	}
 	
 	@Transactional
-	public void delete(AkteNikah agama) {
+	public void delete(Agama agama) {
 		agamaDAO.delete(agama);
 	}
 	

@@ -1,12 +1,9 @@
 package id.ac.its.pbkk.kependudukan.service;
-import id.ac.its.pbkk.kependudukan.domain.AkteNikah;
+import id.ac.its.pbkk.kependudukan.domain.Agama;
 
 public interface AgamaService {
-	void persist(AkteNikah agama);
-
-	AkteNikah findById(int id);
-
-	void update(AkteNikah agama);
-
-	void delete(AkteNikah agama);
+	Agama findById(int id);
+	void persist(Agama agama);
+	void update(Agama agama);
+	void delete(Agama agama);
 }
