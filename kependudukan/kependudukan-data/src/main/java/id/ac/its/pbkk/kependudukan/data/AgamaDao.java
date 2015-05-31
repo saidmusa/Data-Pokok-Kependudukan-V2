@@ -4,14 +4,11 @@ import java.util.List;
 
 import id.ac.its.pbkk.kependudukan.domain.Agama;
 
-public interface AgamaDAO {
-	void persist(Agama agama);
+public interface AgamaDao {
 	  
 	Agama findById(int id);
-	  
+	void save(Agama agama);
 	void update(Agama agama);
-	 
-	void delete(Agama agama);
-	
-	public List<Agama> list()
+	void delete(Agama agama);	
+	public List<Agama> list();
 }

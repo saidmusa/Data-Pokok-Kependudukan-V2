@@ -1,5 +1,7 @@
 package id.ac.its.pbkk.kependudukan.domain;
+import org.hibernate.annotations.Type;
 import org.joda.time.DateTime;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -11,9 +13,13 @@ public class Agama {
 	@Id
 	@Column(name = "ID", nullable = false)
 	private int id;
-	@Column(name = "EXP_DATE", nullable = false)
+	
+	@Type(type="org.jadira.usertype.dateandtime.joda.PersistentDateTime")
+	@Column(name = "EXP_DATE", nullable = true)
 	private DateTime exp;
-	@Column(name = "NAMA", nullable = false)
+	
+	
+	@Column(name = "NAMA", nullable = false, length=20)
 	private String nama;
 	
 	public Agama(){}
