@@ -1,0 +1,34 @@
+package id.ac.its.pbkk.kependudukan.test;
+
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.GenericXmlApplicationContext;
+
+import id.ac.its.pbkk.kependudukan.domain.*;
+//import id.ac.its.pbkk.kependudukan.service.*;
+import id.ac.its.pbkk.kependudukan.data.*;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	System.out.println("load context");
+    	GenericXmlApplicationContext context = new GenericXmlApplicationContext();
+		context.load("classpath:applicationContext.xml");
+		ctx.refresh();
+		Agama ag = new Agama("aaa");
+		
+		AgamaDAO agamaDAO = context.getBean("agamaDAO", AgamaDAO.class);
+		
+		agamaDAO.save(ag);
+		
+		//AgamaService agService = (AgamaService) context.getBean("agamaService");
+		//agService.persist(ag);
+		/*System.out.println("Updated age :" + emService.findEmployeeById("123").getAge());		
+		em.setAge(32);
+		emService.updateEmployee(em);
+		System.out.println("Updated age :" + emService.findEmployeeById("123").getAge());
+		emService.deleteEmployee(em);*/
+		context.close();
+    }
+}

@@ -1,0 +1,48 @@
+package id.ac.its.pbkk.kependudukan.domain;
+import org.joda.time.DateTime;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import java.io.Serializable;
+
+@Entity
+@Table(name = "TBL_AGAMA")
+public class LevelWilayah{
+	@Id
+	@Column(name = "ID", nullable = false)
+	private int id;
+	@Column(name = "NAMA", nullable = false)
+	public String nama;
+	@Column(name = "EXP_DATE", nullable = false)
+	public DateTime exp;
+	
+	public LevelWilayah(){}
+	public LevelWilayah(int id, String nama){
+		this.setId(id);
+		this.setNama(nama);
+	}
+	public LevelWilayah(String nama){
+		this.setNama(nama);
+	}
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getNama() {
+		return nama;
+	}
+	public void setNama(String nama) {
+		this.nama = nama;
+	}
+	public DateTime getExp() {
+		return exp;
+	}
+	public void setExp(DateTime exp) {
+		this.exp = exp;
+	}
+	
+}
