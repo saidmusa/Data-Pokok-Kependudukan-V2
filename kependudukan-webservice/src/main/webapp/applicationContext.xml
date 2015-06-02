@@ -13,29 +13,9 @@
     <property name="driverClassName" value="com.mysql.jdbc.Driver" />
     <property name="url" value="jdbc:mysql://localhost:3306/kependudukan" />
     <property name="username" value="adminxDJMdWY " />
-    <property name="password" value="372b3P7tE63T " />
+    <property name="password" value="372b3P7tE63T" />
   </bean>
-<!--  
-  <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
-    <property name="dataSource" ref="dataSource"></property>
-     <property name="annotatedClasses">
-            <list>
-                <value>id.ac.its.pbkk.kependudukan.domain.*</value>
-            </list>
-        </property>
-    <property name="hibernateProperties">
-      <props>
-        <prop 
-         key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
-        <prop key="hibernate.show_sql">true</prop>
-      </props>
-    </property>
-  </bean>
-  
-  <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager" 
-    p:sessionFactory-ref="sessionFactory">
-  </bean>
-  -->
+
   <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
  		<property name="dataSource">
  			<ref bean="dataSource"/>

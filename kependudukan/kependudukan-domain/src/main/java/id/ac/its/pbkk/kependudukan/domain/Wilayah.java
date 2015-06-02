@@ -1,5 +1,8 @@
 package id.ac.its.pbkk.kependudukan.domain;
+import org.codehaus.jackson.annotate.JsonAutoDetect;
+import org.codehaus.jackson.annotate.JsonIgnore;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+import org.codehaus.jackson.annotate.JsonProperty;
 import org.hibernate.annotations.Type;
 import org.joda.time.DateTime;
 
@@ -10,14 +13,16 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.Table;
 import javax.persistence.ManyToOne;
-@JsonIgnoreProperties(value = { "handler", "hibernateLazyInitializer" })
+
+
 @Entity
 @Table(name = "TBL_WILAYAH")
+@JsonIgnoreProperties({"level"})
 public class Wilayah{
-	
+
 	private int id;
 	
-	
+
 	private String nama;
 	
 	
@@ -40,7 +45,7 @@ public class Wilayah{
 	}
 	
 	//Setter getter
-	
+	@JsonProperty
 	@Id
 	@Column(name = "ID", nullable = false, insertable = false, updatable = false)
 	public int getId() {
@@ -50,7 +55,6 @@ public class Wilayah{
 	public void setId(int id) {
 		this.id = id;
 	}
-
 	@Column(name = "NAMA", nullable = false, length=50)
 	public String getNama() {
 		return nama;
@@ -69,7 +73,7 @@ public class Wilayah{
 	public void setLevel(LevelWilayah level) {
 		this.level = level;
 	}
-
+	
 	@Column(name = "EXP", nullable = true)
 	@Type(type="org.jadira.usertype.dateandtime.joda.PersistentDateTime")
 	public DateTime getExp() {
@@ -90,7 +94,11 @@ public class Wilayah{
 		this.induk = induk;
 	}
 	
-	
+	@Override public String toString(){
+		String result = "{\"id\":"+this.id+",\"nama\":\""+this.nama+"\",\"levelwilayah\":"+this.level.getId()+",\"exp\":"+this.exp+",\"induk\":"+this.induk.getId()+"}";
+		// "{\"id\":"+this.id+",\"nama\":\""+this.nama+"\",\"levelwilayah\":"+this.levelwilayah.getId()+",\"exp\":"+this.exp+",\"induk\":"+this.induk.getId()+"}"
+		return result;
+	}
 	
 	
 }

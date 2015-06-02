@@ -30,7 +30,6 @@ public class AgamaWs {
 	@GET
 	@Path("/get/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	@JsonIgnoreProperties(value = { "handler", "hibernateLazyInitializer" })
 	public Agama getAgamaById(@PathParam("id") int id) {
 		Agama agama = agamaDao.findById(id);
 		return agama;

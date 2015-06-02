@@ -10,9 +10,6 @@
     <module>kependudukan-data</module>
     <module>kependudukan-service</module>
     <module>kependudukan-test</module>
-    <module>kependudukan-ws</module>
-    <module>kependudukan-webservice</module>
-    <module>kependudukan-webservices</module>
   </modules>
   <properties>
 		<spring.version>3.2.3.RELEASE</spring.version>

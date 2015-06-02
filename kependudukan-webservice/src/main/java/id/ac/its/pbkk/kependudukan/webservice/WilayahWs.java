@@ -1,5 +1,7 @@
 package id.ac.its.pbkk.kependudukan.webservice;
 
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -18,7 +20,12 @@ import id.ac.its.pbkk.kependudukan.domain.*;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.codehaus.jettison.json.JSONArray;
+import org.codehaus.jettison.json.JSONException;
+import org.codehaus.jettison.json.JSONObject;
 import org.joda.time.DateTime; 
+
+import com.cedarsoftware.util.io.JsonWriter;
 
 @Path("/wilayah")
 public class WilayahWs {
@@ -26,41 +33,51 @@ public class WilayahWs {
     		new ClassPathXmlApplicationContext("applicationContext.xml");
 	WilayahDao wilayahDao = (WilayahDao) context.getBean("wilayahDao");
 	
+	private JSONObject toJson(Wilayah wilayah) throws JSONException {
+		JSONObject obj = new JSONObject();
+		obj.put("id", wilayah.getId());
+		obj.put("nama", wilayah.getNama());	
+		obj.put("exp", wilayah.getExp());
+		obj.put("level", wilayah.getLevel().getId());
+		if(wilayah.getInduk()!=null){
+			obj.put("ind", wilayah.getInduk().getId());
+			}
+			else{
+				obj.put("ind",wilayah.getInduk());
+			}
+		return obj;
+	}
+	
 	@GET
 	@Path("/getById/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Wilayah getById(@PathParam("id") int id) {
+	public JSONObject getById(@PathParam("id") int id) throws JSONException {
 		Wilayah wilayah = wilayahDao.findById(id);
-		return wilayah;
+		return toJson(wilayah);
 	}
 	
 	@GET
 	@Path("/getChild/{induk}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Wilayah> getChild(@PathParam("induk") int id) {
+	public JSONArray getChild(@PathParam("induk") int id) throws JSONException {
 		Wilayah induk = new Wilayah();
 		induk.setId(id);
 		List<Wilayah>  wilayahs = wilayahDao.findChild(induk);
-		return wilayahs;
+		JSONArray array = new JSONArray();
+		for(int i=0;i<wilayahs.size();i++){
+			array.put(toJson(wilayahs.get(i)));
+		}
+		return array;
 	}
 	
 	@GET
 	@Path("/getInduk/{child}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Wilayah getInd(@PathParam("child") int idChild) {
-		Wilayah child = new Wilayah();
-		child.setId(idChild);
-		Wilayah induk = child.getInduk();
-		return induk;
+	public JSONObject getInd(@PathParam("child") int idChild) throws JSONException {
+		Wilayah induk = wilayahDao.findById(idChild).getInduk();
+		return toJson(induk);
 	}
-	/*
-	@GET
-	@Path("/list")
-	@Produces(MediaType.APPLICATION_JSON)
-	public List<Wilayah> getList() {
-		List<Wilayah> wilayahs = wilayahDao.list();
-		return wilayahs;
-	}
+	
 	
 	@POST
 	@Path("/update")
@@ -79,5 +96,5 @@ public class WilayahWs {
 		String result = "agama saved";
 		return Response.status(201).entity(result).build();	
 	}
-	*/
+	
 }
