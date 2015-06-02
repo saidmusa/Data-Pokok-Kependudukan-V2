@@ -14,45 +14,43 @@ import javax.ws.rs.core.Response;
 import id.ac.its.pbkk.kependudukan.data.*;
 import id.ac.its.pbkk.kependudukan.domain.*;
 
-import com.mkyong.Track;
-
 import org.joda.time.DateTime; 
 
-@Path("/agama")
-public class AgamaWs {
-	AgamaDao agamaDao;
+@Path("/pekerjaan")
+public class PekerjaanWs {
+	PekerjaanDao pekerjaanDao;
 	
 	@GET
 	@Path("/get/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Agama getAgamaById(@PathParam("id") int id) {
-		Agama agama = agamaDao.findById(id);
-		return agama;
+	public Pekerjaan getPekerjaanById(@PathParam("id") int id) {
+		Pekerjaan pekerjaan = pekerjaanDao.findById(id);
+		return pekerjaan;
 	}
 	
 	@GET
 	@Path("/list")
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Agama> getList() {
-		List<Agama> agamas = agamaDao.list();
-		return agamas;
+	public List<Pekerjaan> getList() {
+		List<Pekerjaan> pekerjaans = pekerjaanDao.list();
+		return pekerjaans;
 	}
 	
 	@POST
 	@Path("/update")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Response updateAgama(Agama agama) {
-		agamaDao.update(agama);
-		String result = "agama saved";
+	public Response updatePekerjaan(Pekerjaan pekerjaan) {
+		pekerjaanDao.update(pekerjaan);
+		String result = "pekerjaan saved";
 		return Response.status(201).entity(result).build();
 	}
 	
 	@POST
 	@Path("/create")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Response createAgama(Agama agama) {
-		agamaDao.save(agama);
-		String result = "agama saved";
+	public Response createPekerjaan(Pekerjaan pekerjaan) {
+		pekerjaanDao.save(pekerjaan);
+		String result = "pekerjaan saved";
 		return Response.status(201).entity(result).build();	
 	}
 }
