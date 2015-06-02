@@ -15,27 +15,32 @@ public class TestLevelWilayah
     {
     	System.out.println("load context");
 		ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-		
+		//test level wilayah
+		WilayahDao wilayahDao = (WilayahDao) context.getBean("wilayahDao");
+		/*
 		int idtes = 15;
 		
-		//test level wilayah
-		LevelWilayahDao levelWilayahDao = (LevelWilayahDao) context.getBean("levelWilayahDao");
+		
 		
 		//create
 		LevelWilayah lwcr = new LevelWilayah();
 		lwcr.setNama("Kota");
 		lwcr.setId(idtes);
 		levelWilayahDao.save(lwcr);
-		
+		*/
 		//read list
-		List<LevelWilayah> levelWilayah = levelWilayahDao.list();
-		for(int i =0 ;i<levelWilayah.size();i++){
-			LevelWilayah levelWilayah1 = levelWilayah.get(i);
-			System.out.println("Id : " + levelWilayah1.getId());	
-			System.out.println("Nama : " + levelWilayah1.getNama());
+		
+		Wilayah wil = new Wilayah();
+		wil.setId(1);
+		
+		List<Wilayah> wilayahs = wilayahDao.findChild(wil);
+		for(int i =0 ;i<wilayahs.size();i++){
+			Wilayah wilayah1 = wilayahs.get(i);
+			System.out.println("Id : " + wilayah1.getId());	
+			System.out.println("Nama : " + wilayah1.getNama());
 		}
 		
-		
+		/*
 		//update
 		LevelWilayah lwup = new LevelWilayah();
 		lwup.setNama("KotaKota");
@@ -55,7 +60,7 @@ public class TestLevelWilayah
 		lwdl.setId(idtes);
 		levelWilayahDao.delete(lwdl);
 		
-		
+		*/
 		
 		
 		context.close();

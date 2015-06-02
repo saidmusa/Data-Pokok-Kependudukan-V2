@@ -15,10 +15,14 @@ import id.ac.its.pbkk.kependudukan.data.*;
 import id.ac.its.pbkk.kependudukan.domain.*;
 
 import org.joda.time.DateTime; 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @Path("/pekerjaan")
 public class PekerjaanWs {
-	PekerjaanDao pekerjaanDao;
+	ApplicationContext context = 
+    		new ClassPathXmlApplicationContext("applicationContext.xml");
+	PekerjaanDao pekerjaanDao = (PekerjaanDao) context.getBean("pekerjaanDao");
 	
 	@GET
 	@Path("/get/{id}")

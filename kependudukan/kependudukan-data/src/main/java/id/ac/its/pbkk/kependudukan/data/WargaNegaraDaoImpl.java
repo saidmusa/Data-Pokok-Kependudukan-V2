@@ -6,7 +6,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 import javax.annotation.Resource;
-
+import java.util.UUID;
 @Transactional
 @Repository("wargaNegaraDao")
 public class WargaNegaraDaoImpl implements WargaNegaraDao{
@@ -25,7 +25,7 @@ public class WargaNegaraDaoImpl implements WargaNegaraDao{
 	}
 	
 	//implementasi
-	public WargaNegara findById(int id) {
+	public WargaNegara findById(UUID id) {
 		return (WargaNegara) sessionFactory.getCurrentSession().get(WargaNegara.class, id);
 	}
 	

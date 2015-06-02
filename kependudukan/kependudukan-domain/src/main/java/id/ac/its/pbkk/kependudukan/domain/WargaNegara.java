@@ -1,6 +1,7 @@
 package id.ac.its.pbkk.kependudukan.domain;
 import java.util.UUID;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.hibernate.annotations.Type;
 import org.joda.time.DateTime;
 
@@ -12,6 +13,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+@JsonIgnoreProperties(value = { "handler", "hibernateLazyInitializer" })
 @Entity
 @Table(name = "TBL_WN")
 public class WargaNegara {

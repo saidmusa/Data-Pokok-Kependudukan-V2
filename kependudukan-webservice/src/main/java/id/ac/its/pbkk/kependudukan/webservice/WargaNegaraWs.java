@@ -1,6 +1,7 @@
 package id.ac.its.pbkk.kependudukan.webservice;
 
 import java.util.List;
+import java.util.UUID;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -17,15 +18,20 @@ import id.ac.its.pbkk.kependudukan.domain.*;
 import com.mkyong.Track;
 
 import org.joda.time.DateTime; 
+import org.joda.time.LocalDateTime;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @Path("/wargaNegara")
 public class WargaNegaraWs {
-	WargaNegaraDao wargaNegaraDao;
+	ApplicationContext context = 
+    		new ClassPathXmlApplicationContext("applicationContext.xml");
+	WargaNegaraDao wargaNegaraDao = (WargaNegaraDao) context.getBean("wargaNegaraDao");
 	
 	@GET
-	@Path("/get/{id}")
+	@Path("/getById/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public WargaNegara getWargaNegaraById(@PathParam("id") int id) {
+	public WargaNegara getWargaNegaraById(@PathParam("id") UUID id) {
 		WargaNegara wargaNegara = wargaNegaraDao.findById(id);
 		return wargaNegara;
 	}
@@ -51,6 +57,16 @@ public class WargaNegaraWs {
 	@Path("/create")
 	@Consumes(MediaType.APPLICATION_JSON)
 	public Response createWargaNegara(WargaNegara wargaNegara) {
+		//parameter minimal : id, tmptlahir, no_kk, nama,tgl_lahir,jk, gol darah, shdk, pekerjaan, kwn, agama, wilayah
+		String provinsi = "";
+		String kota = "";
+		String kecamatan = "";
+		wargaNegara.setNik(provinsi+kota+kecamatan);
+		wargaNegara.setIsHidup(true);
+		wargaNegara.setIsKawin("0");
+		wargaNegara.setCreated(new LocalDateTime().toDateTime());
+		wargaNegara.setUpdated(new LocalDateTime().toDateTime());
+		
 		wargaNegaraDao.save(wargaNegara);
 		String result = "wargaNegara saved";
 		return Response.status(201).entity(result).build();

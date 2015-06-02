@@ -17,10 +17,14 @@ import id.ac.its.pbkk.kependudukan.domain.*;
 import com.mkyong.Track;
 
 import org.joda.time.DateTime; 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @Path("/levelWilayah")
 public class LevelWilayahWs {
-	LevelWilayahDao levelWilayahDao;
+	ApplicationContext context = 
+    		new ClassPathXmlApplicationContext("applicationContext.xml");
+	LevelWilayahDao levelWilayahDao = (LevelWilayahDao) context.getBean("levelWilayahDao");
 	
 	@GET
 	@Path("/get/{id}")

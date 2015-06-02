@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;AgamaWs.java&apos; to &apos;RESTfulExample/src/main/java/com.mkyong.rest&apos;&#x0D;&#x0A;- Original project: &apos;RESTfulExample&apos;&#x0D;&#x0A;- Destination element: &apos;RESTfulExample/src/main/java/com.mkyong.rest&apos;&#x0D;&#x0A;- Original element: &apos;id.ac.its.pbkk.kependudukan.webservice.AgamaWs.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;com.mkyong.rest" element1="/src\/main\/java&lt;id.ac.its.pbkk.kependudukan.webservice{AgamaWs.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1433269430251" units="1" version="1.0"/>
+</session>
