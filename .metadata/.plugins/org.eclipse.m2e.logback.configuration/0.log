@@ -525,3 +525,23 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 2015-06-02 14:52:37,019 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2015-06-02 14:52:37,019 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-06-02 14:52:37,035 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\kependudukan-webservice\src\test\resources
+2015-06-02 17:48:34,848 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-02 17:48:34,854 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\kependudukan\kependudukan-domain\src\main\resources
+2015-06-02 17:48:34,862 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-02 17:48:34,862 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\kependudukan\kependudukan-domain\src\test\resources
+2015-06-02 17:48:36,101 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-02 17:48:36,101 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\kependudukan\kependudukan-data\src\main\resources
+2015-06-02 17:48:36,117 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-02 17:48:36,117 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\kependudukan\kependudukan-data\src\test\resources
+2015-06-02 17:48:36,881 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-02 17:48:36,881 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\kependudukan\kependudukan-service\src\main\resources
+2015-06-02 17:48:36,896 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-02 17:48:36,896 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\kependudukan\kependudukan-service\src\test\resources
+2015-06-02 17:48:37,604 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-02 17:48:37,615 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2015-06-02 17:48:37,647 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-02 17:48:37,647 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\kependudukan\kependudukan-test\src\test\resources
+2015-06-02 17:48:39,191 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 17:48:39,207 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-02 17:48:39,207 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 17:48:39,223 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\kependudukan-webservice\src\test\resources
