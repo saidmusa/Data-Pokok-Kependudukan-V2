@@ -50,5 +50,8 @@ public class Agama {
 	public void setNama(String nama) {
 		this.nama = nama;
 	}
-	
+	@Override
+	public String toString() {
+		return "Agama [id=" + this.id + ", nama=" + this.nama + "]";
+	}
 }
