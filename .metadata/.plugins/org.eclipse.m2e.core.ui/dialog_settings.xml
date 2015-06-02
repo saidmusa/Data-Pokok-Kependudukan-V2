@@ -59,9 +59,12 @@
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
-	<section name="MavenProjectImportWizardPage">
-		<list key="rootDirectory">
-			<item value="C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2"/>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="kependudukan-test"/>
+			<item value="kependudukan-service"/>
+			<item value="kependudukan-data"/>
+			<item value="kependudukan-domain"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -71,12 +74,9 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 		</list>
 	</section>
-	<section name="MavenModuleWizardParentPage">
-		<list key="moduleName">
-			<item value="kependudukan-test"/>
-			<item value="kependudukan-service"/>
-			<item value="kependudukan-data"/>
-			<item value="kependudukan-domain"/>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

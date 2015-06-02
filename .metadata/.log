@@ -235,3 +235,124 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.core.resources 4 567 2015-05-31 01:54:08.929
 !MESSAGE The project description file (.project) for 'kependudukan-data' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SESSION 2015-06-02 14:42:54.389 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-06-02 14:44:16.184
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\said'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-06-02 14:46:41.403
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-06-02 14:46:41.497
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-06-02 14:47:00.462
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-06-02 14:47:00.509
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\activation-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\asm-3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jackson-core-asl-1.7.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jackson-jaxrs-1.7.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jackson-mapper-asl-1.7.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jackson-xc-1.7.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jaxb-api-2.2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jaxb-impl-2.2.3-1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jersey-client-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jersey-core-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jersey-json-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jersey-server-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jettison-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\joda-time-2.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\joda-time-hibernate-1.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\stax-api-1.0-2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:22.189
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\stax-api-1.0.1.jar. May be locked by another process.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-06-02 14:49:23.950
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-06-02 14:49:23.996
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-06-02 14:49:27.462
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.462
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\activation-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.462
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\asm-3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.478
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jackson-core-asl-1.7.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.478
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jackson-jaxrs-1.7.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.478
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jackson-mapper-asl-1.7.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.478
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jackson-xc-1.7.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.478
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jaxb-api-2.2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.478
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jaxb-impl-2.2.3-1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.478
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jersey-client-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.478
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jersey-core-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.478
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jersey-json-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.478
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jersey-server-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.478
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\jettison-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.478
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\joda-time-2.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.478
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\joda-time-hibernate-1.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.478
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\stax-api-1.0-2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2015-06-02 14:49:27.478
+!MESSAGE Could not delete C:\Semester 6\PBKK\Data-Pokok-Kependudukan-V2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTfulExample\WEB-INF\lib\stax-api-1.0.1.jar. May be locked by another process.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-06-02 14:51:44.921
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-06-02 14:51:44.937
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-06-02 14:51:44.968
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-06-02 14:52:37.004
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-06-02 14:52:37.019
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
