@@ -34,4 +34,46 @@ public class AkteLahir {
 	@JoinColumn(name = "TMPT_TERBIT", nullable = false)
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Wilayah tempatTerbit;
+
+	public UUID getId() {
+		return id;
+	}
+
+	public void setId(UUID id) {
+		this.id = id;
+	}
+
+	public WargaNegara getPemilik() {
+		return pemilik;
+	}
+
+	public void setPemilik(WargaNegara pemilik) {
+		this.pemilik = pemilik;
+	}
+
+	public WargaNegara getBapak() {
+		return bapak;
+	}
+
+	public void setBapak(WargaNegara bapak) {
+		this.bapak = bapak;
+	}
+
+	public WargaNegara getIbu() {
+		return ibu;
+	}
+
+	public void setIbu(WargaNegara ibu) {
+		this.ibu = ibu;
+	}
+
+	public Wilayah getTempatTerbit() {
+		return tempatTerbit;
+	}
+
+	public void setTempatTerbit(Wilayah tempatTerbit) {
+		this.tempatTerbit = tempatTerbit;
+	}
+	
+	
 }

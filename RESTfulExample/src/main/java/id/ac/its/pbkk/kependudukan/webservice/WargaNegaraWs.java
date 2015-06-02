@@ -18,41 +18,41 @@ import com.mkyong.Track;
 
 import org.joda.time.DateTime; 
 
-@Path("/agama")
-public class AgamaWs {
-	AgamaDao agamaDao;
+@Path("/wargaNegara")
+public class WargaNegaraWs {
+	WargaNegaraDao wargaNegaraDao;
 	
 	@GET
 	@Path("/get/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Agama getAgamaById(@PathParam("id") int id) {
-		Agama agama = agamaDao.findById(id);
-		return agama;
+	public WargaNegara getWargaNegaraById(@PathParam("id") int id) {
+		WargaNegara wargaNegara = wargaNegaraDao.findById(id);
+		return wargaNegara;
 	}
 	
 	@GET
 	@Path("/list")
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Agama> getList() {
-		List<Agama> agamas = agamaDao.list();
-		return agamas;
+	public List<WargaNegara> getList() {
+		List<WargaNegara> wargaNegaras = wargaNegaraDao.list();
+		return wargaNegaras;
 	}
 	
 	@POST
 	@Path("/update")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Response updateAgama(Agama agama) {
-		agamaDao.update(agama);
-		String result = "agama saved";
+	public Response updateWargaNegara(WargaNegara wargaNegara) {
+		wargaNegaraDao.update(wargaNegara);
+		String result = "wargaNegara saved";
 		return Response.status(201).entity(result).build();
 	}
 	
 	@POST
 	@Path("/create")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Response createAgama(Agama agama) {
-		agamaDao.save(agama);
-		String result = "agama saved";
-		return Response.status(201).entity(result).build();	
+	public Response createWargaNegara(WargaNegara wargaNegara) {
+		wargaNegaraDao.save(wargaNegara);
+		String result = "wargaNegara saved";
+		return Response.status(201).entity(result).build();
 	}
 }

@@ -18,41 +18,41 @@ import com.mkyong.Track;
 
 import org.joda.time.DateTime; 
 
-@Path("/agama")
-public class AgamaWs {
-	AgamaDao agamaDao;
+@Path("/levelWilayah")
+public class LevelWilayahWs {
+	LevelWilayahDao levelWilayahDao;
 	
 	@GET
 	@Path("/get/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Agama getAgamaById(@PathParam("id") int id) {
-		Agama agama = agamaDao.findById(id);
-		return agama;
+	public LevelWilayah getLevelWilayahById(@PathParam("id") int id) {
+		LevelWilayah levelWilayah = levelWilayahDao.findById(id);
+		return levelWilayah;
 	}
 	
 	@GET
 	@Path("/list")
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Agama> getList() {
-		List<Agama> agamas = agamaDao.list();
-		return agamas;
+	public List<LevelWilayah> getList() {
+		List<LevelWilayah> levelWilayahs = levelWilayahDao.list();
+		return levelWilayahs;
 	}
 	
 	@POST
 	@Path("/update")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Response updateAgama(Agama agama) {
-		agamaDao.update(agama);
-		String result = "agama saved";
+	public Response updateLevelWilayah(LevelWilayah levelWilayah) {
+		levelWilayahDao.update(levelWilayah);
+		String result = "levelWilayah saved";
 		return Response.status(201).entity(result).build();
 	}
 	
 	@POST
 	@Path("/create")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Response createAgama(Agama agama) {
-		agamaDao.save(agama);
-		String result = "agama saved";
+	public Response createLevelWilayah(LevelWilayah levelWilayah) {
+		levelWilayahDao.save(levelWilayah);
+		String result = "levelWilayah saved";
 		return Response.status(201).entity(result).build();	
 	}
 }
