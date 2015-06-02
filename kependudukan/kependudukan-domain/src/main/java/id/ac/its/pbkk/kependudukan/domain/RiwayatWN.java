@@ -6,7 +6,10 @@ import org.joda.time.DateTime;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -16,28 +19,36 @@ public class RiwayatWN {
 	@Column(name = "ID", nullable = false)
 	private Integer id;
 	
-	@Column(name = "WN", nullable = false)
+	@JoinColumn(name = "WN", nullable = false)
+	@ManyToOne(fetch = FetchType.LAZY)
 	private WargaNegara wn;
 	
-	@Column(name = "TMPT_LAHIR", nullable = false)
+	@JoinColumn(name = "TMPT_LAHIR", nullable = false)
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Wilayah tempatLahir;
 	
-	@Column(name = "NO_KK", nullable = false)
+	@JoinColumn(name = "NO_KK", nullable = false)
+	@ManyToOne(fetch = FetchType.LAZY)
 	private KK kk;
 	
-	@Column(name = "AKTE_MATI", nullable = false)
+	@JoinColumn(name = "AKTE_MATI", nullable = false)
+	@ManyToOne(fetch = FetchType.LAZY)
 	private AkteMati akteMati;
 	
-	@Column(name = "AGAMA", nullable = false)
+	@JoinColumn(name = "AGAMA", nullable = false)
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Agama agama;
 	
-	@Column(name = "KWN", nullable = false)
+	@JoinColumn(name = "KWN", nullable = false)
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Wilayah kwn;
 	
-	@Column(name = "AKTE_LAHIR", nullable = false)
+	@JoinColumn(name = "AKTE_LAHIR", nullable = false)
+	@ManyToOne(fetch = FetchType.LAZY)
 	private AkteLahir akteLahir;
 	
-	@Column(name = "PEKERJAAN", nullable = false)
+	@JoinColumn(name = "PEKERJAAN", nullable = false)
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Pekerjaan pekerjaan;
 	
 	@Column(name = "CREATED", nullable = true)

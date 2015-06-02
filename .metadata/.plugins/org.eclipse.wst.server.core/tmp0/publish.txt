@@ -1,5 +1,5 @@
 #Tomcat publish data
-#Tue Jun 02 14:52:39 ICT 2015
+#Tue Jun 02 20:32:23 ICT 2015
 org.eclipse.jst.j2ee.server\:kependudukan-domain=WEB-INF/lib/kependudukan-domain.jar
 org.eclipse.jst.j2ee.server\:kependudukan-service=WEB-INF/lib/kependudukan-service.jar
 org.eclipse.jst.j2ee.server\:kependudukan-data=WEB-INF/lib/kependudukan-data.jar

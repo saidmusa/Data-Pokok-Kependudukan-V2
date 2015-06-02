@@ -13,20 +13,28 @@ import javax.ws.rs.core.Response;
 
 import id.ac.its.pbkk.kependudukan.data.*;
 import id.ac.its.pbkk.kependudukan.domain.*;
+import id.ac.its.pbkk.kependudukan.service.AgamaService;
 
-import com.mkyong.Track;
-
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.joda.time.DateTime; 
 
 @Path("/agama")
 public class AgamaWs {
-	AgamaDao agamaDao;
+	ApplicationContext context = 
+    		new ClassPathXmlApplicationContext("applicationContext.xml");
+	AgamaService agamaService = (AgamaService) context.getBean("agamaService");
 	
 	@GET
-	@Path("/get/{id}")
+	@Path("/get")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Agama getAgamaById(@PathParam("id") int id) {
-		Agama agama = agamaDao.findById(id);
+	public Agama getAgamaById() {
+		Agama agama = agamaService.findById(2);
+		Agama lwcr = new Agama();
+		lwcr.setNama("hoho");
+		lwcr.setId(81);
+		agamaService.save(lwcr);
 		return agama;
 	}
 	
@@ -34,7 +42,7 @@ public class AgamaWs {
 	@Path("/list")
 	@Produces(MediaType.APPLICATION_JSON)
 	public List<Agama> getList() {
-		List<Agama> agamas = agamaDao.list();
+		List<Agama> agamas = agamaService.list();
 		return agamas;
 	}
 	
@@ -42,7 +50,7 @@ public class AgamaWs {
 	@Path("/update")
 	@Consumes(MediaType.APPLICATION_JSON)
 	public Response updateAgama(Agama agama) {
-		agamaDao.update(agama);
+		agamaService.update(agama);
 		String result = "agama saved";
 		return Response.status(201).entity(result).build();
 	}
@@ -51,7 +59,7 @@ public class AgamaWs {
 	@Path("/create")
 	@Consumes(MediaType.APPLICATION_JSON)
 	public Response createAgama(Agama agama) {
-		agamaDao.save(agama);
+		agamaService.save(agama);
 		String result = "agama saved";
 		return Response.status(201).entity(result).build();	
 	}

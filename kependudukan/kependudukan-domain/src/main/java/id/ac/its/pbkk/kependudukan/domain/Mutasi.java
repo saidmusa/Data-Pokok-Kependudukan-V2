@@ -23,7 +23,8 @@ public class Mutasi {
 	@ManyToOne(fetch = FetchType.LAZY)
 	private KTP noRegKTP;
 	
-	@Column(name = "TUJUAN", nullable = false)
+	@JoinColumn(name = "TUJUAN", nullable = false)
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Wilayah tujuan;
 	
 	@Column(name = "TGL_KELUAR", nullable = false)

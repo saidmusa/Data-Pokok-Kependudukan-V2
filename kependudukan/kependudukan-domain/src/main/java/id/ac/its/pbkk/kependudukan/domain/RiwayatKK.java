@@ -6,7 +6,10 @@ import org.joda.time.DateTime;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -19,7 +22,8 @@ public class RiwayatKK {
 	@Column(name = "NO_KK", nullable = false)
 	private UUID kk;
 	
-	@Column(name = "TMPT_TERBIT", nullable = false)
+	@JoinColumn(name = "TMPT_TERBIT", nullable = false)
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Wilayah tempatTerbit;
 	
 	@Column(name = "CREATED", nullable = true)

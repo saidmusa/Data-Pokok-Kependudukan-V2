@@ -1,0 +1,79 @@
+package id.ac.its.pbkk.kependudukan.test;
+
+import java.util.List;
+
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import id.ac.its.pbkk.kependudukan.domain.*;
+import id.ac.its.pbkk.kependudukan.service.*;
+import id.ac.its.pbkk.kependudukan.data.*;
+
+public class TestAgamaService 
+{
+    public static void main( String[] args )
+    {
+    	System.out.println("load context");
+		ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		
+		int idtes = 15;
+		
+		//test level wilayah
+		AgamaDao agamaDao = (AgamaDao) context.getBean("levelWilayahDao");
+		
+		//create
+		AgamaDao lwcr = new AgamaDao();
+		lwcr.setNama("Kota");
+		lwcr.setId(idtes);
+		agamaDao.save(lwcr);
+		
+		//read list
+		List<AgamaDao> levelWilayah = agamaDao.list();
+		for(int i =0 ;i<levelWilayah.size();i++){
+			AgamaDao levelWilayah1 = levelWilayah.get(i);
+			System.out.println("Id : " + levelWilayah1.getId());	
+			System.out.println("Nama : " + levelWilayah1.getNama());
+		}
+		
+		
+		//update
+		AgamaDao lwup = new AgamaDao();
+		lwup.setNama("KotaKota");
+		lwup.setId(idtes);
+		agamaDao.update(lwup);
+		
+		//read id
+		AgamaDao rd = new AgamaDao();
+		rd.setId(idtes);
+		AgamaDao rd1 = agamaDao.findById(idtes);
+		System.out.println("Id : " + rd1.getId());	
+		System.out.println("Nama : " + rd1.getNama());
+		
+		
+		//delete
+		AgamaDao lwdl = new AgamaDao();
+		lwdl.setId(idtes);
+		agamaDao.delete(lwdl);
+		
+		
+		
+		
+		context.close();
+    }
+}
+/*System.out.println("load context");
+ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+Agama ag = new Agama("tes");
+AgamaService agService = (AgamaService) context.getBean("agamaService");
+agService.persist(ag);
+/*System.out.println("Updated age :" + emService.findEmployeeById("123").getAge());		
+em.setAge(32);
+emService.updateEmployee(em);
+System.out.println("Updated age :" + emService.findEmployeeById("123").getAge());
+emService.deleteEmployee(em);
+context.close();*/
+
+/*/test Agama
+		AgamaDao agamaDAO = (AgamaDao) context.getBean("agamaDao");
+		Agama ag = new Agama("tes lagi1");
+		agamaDAO.save(ag);*/
